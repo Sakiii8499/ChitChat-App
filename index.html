@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <script defer src="http://localhost:3000../socket.io/socket.io.js"></script>
+    <script defer src="https://cdn.socket.io/4.4.1/socket.io.min.js"
+    integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H"
+    crossorigin="anonymous"></script>
+    <!--isse server or client ek dusre se jud jate hai-->
+    <!--Refer socke4t.io documentation-- error yet hota mhnun 2 dots laavle documentation mdhe bghun-->
+    <script defer src="./js/client.js"></script>
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="">
+        <h1>Welcome to ChitChat App</h1>
+    </nav>
+
+    <div class="container">
+        <!-- <div class="message right">Sakshi: Hey, How are you?</div>
+        <div class="message left">Sharvari: I am fine.</div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="sendContainer">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
